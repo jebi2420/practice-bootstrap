@@ -1,0 +1,9 @@
+
+.search-input{
+    border-radius: 50px;
+}
+
+.search-input:focus{
+    border: none;
+    outline: none;
+}
