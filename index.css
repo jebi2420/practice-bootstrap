@@ -24,3 +24,34 @@ h1{
     color: white;
     white-space: nowrap;
 }
+
+/* .sub-item{
+    width: 80%;
+} */
+
+.carousel {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.slide-second{
+    width: 80%;
+}
+
+.carousel-control-next-icon {
+    background-image: url(./arrow.png);
+}
+
+.carousel-control-next{
+    opacity: none;
+}
+
+.slide-container-second{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    position: relative;
+}
