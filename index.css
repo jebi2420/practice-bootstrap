@@ -1,3 +1,24 @@
+a{
+    color: rgba(5, 5, 5, 0.753);
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.nav-bar {
+    background-color: rgb(255, 255, 255) !important;
+}
 
 .search-input{
     border-radius: 50px;
@@ -41,7 +62,7 @@ h1{
 
 /* 중간 타이틀 */
 .middle-title{
-    margin: 6vw 0 3vw;
+    margin: 8vw 0 3vw;
     text-align: center;
 }
 
@@ -99,3 +120,27 @@ h1{
     margin: 0 15px;
 }
 
+/* 중간 타이틀 두번째 */
+.main-second h4{
+    text-align: center;
+}
+
+.card-item{
+    white-space: nowrap;
+    
+}
+
+.card-item:hover{
+    box-shadow:  0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transform: scale(1.02);
+}
+
+.card-item-body{
+    padding: 23px 20px;
+}
+
+/* 푸터 */
+footer{
+    width: 100%;
+    padding: 56px 60px 32px;
+}
