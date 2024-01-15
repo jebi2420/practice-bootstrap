@@ -147,6 +147,15 @@ h1{
 footer{
     width: 100%;
     padding: 56px 60px 32px;
+    background: #f7f7f7;
+}
+
+.footer-first{
+    display: flex;
+}
+
+.footer-column{
+    margin-right: 200px;
 }
 
 .footer-first-mobile{
