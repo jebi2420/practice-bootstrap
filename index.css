@@ -20,6 +20,10 @@ li{
     background-color: rgb(255, 255, 255) !important;
 }
 
+.logo{
+    width: 228px;
+}
+
 .search-input{
     border-radius: 50px;
 }
