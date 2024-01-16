@@ -24,13 +24,29 @@ li{
     width: 228px;
 }
 
+.nav-menus{
+    width: 100%;
+    justify-content: center;
+}
+
+.nav-link{
+    padding-right: 0.8rem !important;
+    padding-left: 0.8rem !important;
+    color: black !important;
+    font-size: 13px;
+}
+
+.nav-link:hover{
+    color: rgba(0, 0, 0, 0.699) !important;
+}
+
 .search-input{
+    border: black solid 1px;
     border-radius: 50px;
 }
 
 .search-input:focus{
     border: none;
-    outline: none;
 }
 
 .btn-search{
@@ -191,6 +207,27 @@ footer{
 
 .second-item-text{
     font-size: 11px;
+}
+
+/* 라이브챗 알림 */
+.live-chat{
+    position: fixed;
+    right: 0;
+    bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.336);
+}
+
+.live-chat img{
+    width: 12px;
+    margin-right: 5px;
 }
 
 /* 모바일 버전 */
